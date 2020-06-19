@@ -1,0 +1,22 @@
+{
+    "name": "7kgame/php-common",
+    "description": "php common lib",
+    "keywords": ["7kgame", "php", "common-lib"],
+    "homepage": "http://github.com/7kgame/php-common",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chenyijun",
+            "email": "cyij2006@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"QKPHP\\Common\\": "src"}
+    },
+    "minimum-stability": "stable",
+    "classmap": ["src/"],
+    "require": {
+      "php": ">=5.3.0"
+    }
+}
